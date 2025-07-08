@@ -9,16 +9,23 @@ from io import BytesIO
 # --------------------
 # Add Google Search Console verification meta tag here
 # --------------------
+import streamlit as st
+
+# Inject Google Analytics code into the app
 st.markdown(
     """
-    <head>
-        <title>Example.com homepage</title>
-        <meta name="google-site-verification" content="U0EFU2XUc-Tfs6LwCXSryKc8B9lCkP8hBu_P3YOcmiI" />
-    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-13E5H76TP2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-13E5H76TP2');
+    </script>
     """,
-    
     unsafe_allow_html=True
 )
+
 
 # --------------------
 # CONFIGURATION
@@ -44,7 +51,7 @@ def generate_speech(text: str, voice: str = "en-US-JennyNeural"):
 # --------------------
 # STREAMLIT APP UI
 # --------------------
-st.set_page_config(page_title="🗣️ Free AI Text Reader with Support", layout="centered")
+st.set_page_config(page_title="🗣️ AI Text Reader with Support", layout="centered")
 st.title("🗣️ Free AI Text Reader")
 st.markdown("Paste text, click play, and listen with natural AI voices. Built with 💙 using free tools.")
 
