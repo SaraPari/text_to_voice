@@ -40,7 +40,7 @@ def generate_speech(text: str, voice: str = "en-US-JennyNeural"):
 # --------------------
 # STREAMLIT APP UI
 # --------------------
-st.set_page_config(page_title="🗣️ AI Text Reader with Support", layout="centered")
+st.set_page_config(page_title="🗣️ Free AI Text Reader with Support", layout="centered")
 st.title("🗣️ AI Text Reader")
 st.markdown("Paste text, click play, and listen with natural AI voices. Built with 💙 using free tools.")
 
