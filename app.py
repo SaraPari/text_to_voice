@@ -7,6 +7,16 @@ import qrcode
 from io import BytesIO
 
 # --------------------
+# Add Google Search Console verification meta tag here
+# --------------------
+st.markdown(
+    """
+    <meta name="google-site-verification" content="U0EFU2XUc-Tfs6LwCXSryKc8B9lCkP8hBu_P3YOcmiI" />
+    """,
+    unsafe_allow_html=True
+)
+
+# --------------------
 # CONFIGURATION
 # --------------------
 buy_me_a_coffee_link = "https://www.buymeacoffee.com/YOUR_USERNAME"  # ← CHANGE THIS
