@@ -1,6 +1,6 @@
 
 
-### ✅ `README.md` — Copy This into Your Project
+### ✅ `README.md` 
 
 ````markdown
 # 🗣️ AI Text Reader
