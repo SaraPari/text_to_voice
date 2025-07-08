@@ -11,8 +11,12 @@ from io import BytesIO
 # --------------------
 st.markdown(
     """
-    <meta name="google-site-verification" content="U0EFU2XUc-Tfs6LwCXSryKc8B9lCkP8hBu_P3YOcmiI" />
+    <head>
+        <title>Example.com homepage</title>
+        <meta name="google-site-verification" content="U0EFU2XUc-Tfs6LwCXSryKc8B9lCkP8hBu_P3YOcmiI" />
+    </head>
     """,
+    
     unsafe_allow_html=True
 )
 
