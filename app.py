@@ -80,19 +80,19 @@ if st.button("🔊 Read Aloud"):
 # --------------------
 # SUPPORT SECTION
 # --------------------
-st.markdown("---")
-st.header("💸 Support For Unlimited Use")
+#st.markdown("---")
+#st.header("💸 Support For Unlimited Use")
 
-st.markdown("If you like this tool and want unlimited use, you can support me 👇")
+#st.markdown("If you like this tool and want unlimited use, you can support me 👇")
 
-col1, col2 = st.columns(2)
+#col1, col2 = st.columns(2)
 
 # Buy Me a Coffee
-with col1:
-    st.subheader("☕ If You'd Like You Can Buy Me a Coffee With USDT")
-    st.write("Send USDT to this address (BEP20):")
-    st.code(usdt_address, language="text")
-    st.image("usdt_qr.png", caption="Scan to pay with USDT", width=180)
+#with col1:
+    #st.subheader("☕ If You'd Like You Can Buy Me a Coffee With USDT")
+   # st.write("Send USDT to this address (BEP20):")
+   # st.code(usdt_address, language="text")
+    #st.image("usdt_qr.png", caption="Scan to pay with USDT", width=180)
 
 
 # Footer
